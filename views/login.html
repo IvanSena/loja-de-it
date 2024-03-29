@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link(rel="stylesheet", href="public/style.css")>
+</head>
+<body>
+  <h1>Cadastro de produtor</h1>
+  <form action="/cadastro-produtos" method="post" ></form>
+  <div>
+      <label for="Nome do Produto"> Nome do Produto:</label>
+      <input type="text" id='Nome do Produto'             
+      name="nomedoproduto" required>
+  </div>
+  <div>
+    <label for="descricao"> Descrição:</label>
+    <input type="text" id='descricao' name="descricao" 
+     required>
+  </div>
+  <div>
+    <label for="preco"> Preço:</label>
+    <input type="text" id='preco' name="preco" required>
+  </div>
+  <div>
+    <button type="submit"> Cadastrar Produto </button>
+  </div>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <p> class="error"</p>
+  <form class="pure-form pure form-stacked" action="/login" method="post">
+    <fieldset>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+      <button class= "pure-button.pure-button-primary" type="submit">Entrar</button>
+    </fieldset>
+</body>
+</html>
